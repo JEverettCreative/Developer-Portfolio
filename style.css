@@ -1,0 +1,15 @@
+/*.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}*/
+
+.navbar .navbar-collapse {
+    text-align: center;
+    float: none;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 30px;
+    line-height: 1em;
+}
