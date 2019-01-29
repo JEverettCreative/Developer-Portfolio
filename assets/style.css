@@ -3,6 +3,11 @@ body {
     background-image: url(cream_dust.png);
 }
 
+/* Use to see grids more easily. Comb through and remove when formatting complete*/
+.tempborder {
+    border: 2px solid black;
+}
+
 .navbar .navbar-collapse {
     text-align: center;
     float: none;
@@ -10,7 +15,7 @@ body {
 }
 
 .bg-teal {
-    background-color: #9AFFFA;
+    background-color: #D6F0FA;
 }
 
 .logo {
