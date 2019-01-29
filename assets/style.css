@@ -1,7 +1,7 @@
-/*.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}*/
+body {
+    margin-top: 56px;
+    background-image: url(cream_dust.png);
+}
 
 .navbar .navbar-collapse {
     text-align: center;
@@ -9,7 +9,15 @@
     justify-content: space-around;
 }
 
+.bg-teal {
+    background-color: #9AFFFA;
+}
+
 .logo {
     font-size: 30px;
     line-height: 1em;
+}
+
+.round {
+    border-radius: 50%;
 }
