@@ -44,3 +44,15 @@ body {
 .round {
     border-radius: 50%;
 }
+
+.row-pad {
+    padding: 1rem;
+}
+
+.col-pad {
+    padding: 0.5rem;
+}
+
+.carousel-center {
+    font-size: 2em;
+}

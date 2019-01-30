@@ -12,12 +12,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        
         <div class="container">
             <a class="navbar-brand logo" href="#">Jonathan Everett</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="container">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                 <a class="nav-item nav-link" href="index.html">About</a>
@@ -27,11 +29,43 @@
                     <a class="nav-item nav-link" href="#">Home</a> -->
                 </div>
             </div>
+            </div>
         </div>
     </nav>
     
-    <div class="container bg-teal" id="about-container">
-           
+    <div class="container main-content">
+        
+        <div class="row row-pad">
+            <div class="col-12 text-center">
+                <h1>Portfolio</h1>
+                <div class="spacer"></div>
+            </div>
+        </div>
+        
+        
+        <div class="row row-pad">
+            <div class="col-12 col-md-4 col-pad">
+                <a href="#">
+                    <img class="img-fluid round" src="assets/hangman.jpg">
+                    <div class="carousel-caption carousel-center">Hangman</div>
+                </a>
+            </div>
+            <div class="col-12 col-md-4 col-pad">
+                <img class="img-fluid round" src="assets/rockpaper.jpg">
+            </div>
+            <div class="col-12 col-md-4 col-pad">
+                <img class="img-fluid round" src="assets/rpg.jpg">
+            </div>
+        </div>
+        
+        <div class="row row-pad">
+            <div class="col-12 col-md-4 col-pad">
+                <img class="img-fluid round" src="assets/rutgers.jpg">
+            </div>
+            <div class="col-12 col-md-4 col-pad">
+                <img class="img-fluid round" src="assets/trivia.jpg">
+            </div>
+        </div>
     </div>
 </body>
 </html>
