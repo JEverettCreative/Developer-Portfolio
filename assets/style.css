@@ -1,5 +1,5 @@
 body {
-    margin-top: 56px;
+    margin-top: 86px;
     background-image: url(cream_dust.png);
 }
 
@@ -11,7 +11,25 @@ body {
 .navbar .navbar-collapse {
     text-align: center;
     float: none;
-    justify-content: space-around;
+    justify-content: flex-end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.main-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.spacer {
+    max-width: 100px;
+    height: 2px;
+    margin: 8px auto;
+    background-color: #FFA23C;
+    border-radius: 70%;
 }
 
 .bg-teal {
