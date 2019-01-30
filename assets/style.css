@@ -54,5 +54,20 @@ body {
 }
 
 .carousel-center {
-    font-size: 2em;
+    font-size: 1.5em;
+    bottom: 30%;
+    text-shadow: 0.5px 0.5px #000;
+}
+
+.card-img-overlay {
+    top: 40%;
+}
+
+.stroke-highlight {
+    color: #FFA23C;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
