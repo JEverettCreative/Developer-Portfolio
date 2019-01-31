@@ -88,6 +88,15 @@ body {
     1px 1px 0 #000;
 }
 
+/* Footer specific styles */
+
+.foot-text {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffddfd;
+}
+
 /* Contact page and form and input styles */
 
 .btn-orange {
@@ -98,6 +107,26 @@ body {
 
 .btn-teal {
     background-color: #19BFFF;
-    color: #fff;
+    color: #000;
     border-color: #19BFFF;
+}  .btn-teal:hover {
+        color: #fff;
+    }
+
+.social {
+    font-size: 4em;
+    color: #19BFFF;
+    line-height: 0.25rem;
+    margin-top: 0px;
 }
+
+.link-social-text {
+    color: #19BFFF;
+}
+
+.link-social {
+    text-decoration: none;
+}   .link-social :hover {
+    text-decoration: none;
+    color: #FFA23C;
+    }
