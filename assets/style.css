@@ -63,6 +63,25 @@ body {
     top: 40%;
 }
 
+.img-fade {
+    opacity: 0.7;
+}   
+
+div :hover {
+    opacity: 1;
+}
+/* Attempting to fix bug where :hover element doesn't trigger response on bottom half of link/image */
+.block-anchor {
+    display: block;
+    overflow: hidden;
+}
+
+.container-opacity :hover {
+    opacity: 1;
+}   .container-opacity :focus {
+        opacity: 1;
+    }
+
 .stroke-highlight {
     color: #FFA23C;
     text-shadow:
