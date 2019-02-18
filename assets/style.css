@@ -130,3 +130,9 @@ body {
     text-decoration: none;
     color: #FFA23C;
     }
+
+/* Font Styles */
+
+.headFontFred {
+    font-family: 'Fredoka One', cursive;
+}
