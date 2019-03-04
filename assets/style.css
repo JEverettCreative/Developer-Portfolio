@@ -3,10 +3,15 @@ body {
     background-image: url(cream_dust.png);
 }
 
-/* Use to see grids more easily. Comb through and remove when formatting complete*/
-.tempborder {
-    border: 2px solid black;
+h1 {
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
 }
+
+/* Use to see grids more easily. Comb through and remove when formatting complete*/
+/* .tempborder {
+    border: 2px solid black;
+} */
 
 .navbar .navbar-collapse {
     text-align: center;
@@ -39,6 +44,8 @@ body {
 .logo {
     font-size: 30px;
     line-height: 1em;
+    font-weight: 700 bold;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .round {
