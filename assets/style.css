@@ -96,6 +96,26 @@ h1 {
     1px 1px 0 #000;
 }
 
+a.alt-highlight {
+    text-decoration: none;
+} a.alt-highlight:hover {
+    text-decoration: none;
+}
+
+.alt-highlight {
+    color: #19BFFF;
+    letter-spacing: 1.5px;
+    transition: all 0.2s ease-in-out;
+} .alt-highlight:hover {
+    transform: scale(1.1);
+    color: #FFF;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 /* Footer specific styles */
 
 .foot-text {
