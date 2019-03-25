@@ -1,23 +1,26 @@
-# Bootstrap-Portfolio
-Full-stack web developer portfolio, built with Bootstrap, with links in Contact page to social. Will include links to other creative portfolios in future (filmmaking-related) in order to create a bridge between skillsets. 
+# Web Development Portfolio
+Full-stack web developer portfolio, built with Bootstrap. Deployed projects in the Portfolio tab, each with a link to their respective GitHub repositories underneath. Mobile responsive design. 
 
 ## Contributors
 @JEverettCreative
 
 ## Technology
-* Bootstrap 4, HTML5, and CSS3.
+* Bootstrap, HTML5, and CSS3. 
 
 ## About
-* Streamlined and responsive full-stack web developer portfolio. Early stages currently, with placeholders for future projects to be linked within. Currently built on front-end only.
+* Streamlined and responsive full-stack web developer portfolio. Clean and mobile-responsive design, with an orange-and-teal themed color palette in homage to my filmmaking background. 
+
+## Deployed Project
+https://jeverettcreative.github.io/Developer-Portfolio/
 
 ## How-to use this code
-* Simply pull the files and open them in your web browser of choice to view.
+* Simply pull the files and open them in your web browser of choice to view, or visit the deployed project above.
 
 ## Contributing Guidelines
-All contributions and suggestions are welcome!
-For direct contributions, please fork the repository and file a pull request. 
+Suggestions are welcome!
 
 ## Contact
 #### Developer/Full-stack Web Software Developer
 * e-mail: jonathan@jonathaneverettcreative.com
 * LinkedIn: https://www.linkedin.com/in/jonathan-everett-64725435/
+
