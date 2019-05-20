@@ -159,6 +159,26 @@ a.alt-highlight {
     color: #FFA23C;
     }
 
+/* Skills section  */
+
+.skills {
+    font-size: 8em;
+    color: #19BFFF;
+    line-height: 0.25rem;
+    margin-top: 0px;
+}
+
+.link-skills-text {
+    color: #19BFFF;
+}
+
+.link-skills {
+    text-decoration: none;
+}   .link-skills :hover {
+    text-decoration: none;
+    color: #FFA23C;
+    }
+
 /* Font Styles */
 
 .headFontFred {
