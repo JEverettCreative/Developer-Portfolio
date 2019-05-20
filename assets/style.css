@@ -166,6 +166,7 @@ a.alt-highlight {
     color: #19BFFF;
     line-height: 0.25rem;
     margin-top: 0px;
+    position: relative;
 }
 
 .link-skills-text {
@@ -177,6 +178,7 @@ a.alt-highlight {
 }   .link-skills :hover {
     text-decoration: none;
     color: #FFA23C;
+    visibility: hidden;
     }
 
 /* Font Styles */
