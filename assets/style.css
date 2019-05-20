@@ -175,9 +175,11 @@ a.alt-highlight {
 
 .link-skills {
     text-decoration: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }   .link-skills :hover {
     text-decoration: none;
-    color: #FFA23C;
+    /* color: #FFA23C; */
     visibility: hidden;
     }
 
