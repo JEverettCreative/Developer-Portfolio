@@ -178,8 +178,32 @@ a.alt-highlight {
   }
   .skills:hover:after{
     font-size: 0.2em;
-    content: 'ADD';
   }
+
+  .skill-content {
+    font-size: 0.1em;
+    line-height: 2rem;
+    padding-right: 10px;
+    width: 100%;
+    height: 100%;
+	overflow: hidden;
+	position: absolute;
+	cursor: default;
+    transition: all 0s linear;
+    opacity: 0;
+  } .skill-content:hover {
+    transform: scale(1);
+	opacity: 1;
+  }
+
+  .skill-content ul {
+      padding-inline-start: 10px;
+  }
+
+  .skill-content li {
+      list-style: none;
+  }
+  
 
 .link-skills-text {
     color: #19BFFF;
@@ -195,19 +219,6 @@ a.alt-highlight {
     /* color: #FFA23C; */
     opacity: 0;
     }
-
-/* div .caption {
-    position: absolute;
-    opacity: 0;
-    -webkit-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
-    top: 50%;
-    height: 100px;
-    width: 100px;
-    background-color: #FFA23C;
-} div .caption :hover {
-    opacity: 1;
-} */
 
 /* Font Styles */
 
