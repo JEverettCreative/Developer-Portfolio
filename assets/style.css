@@ -169,19 +169,45 @@ a.alt-highlight {
     position: relative;
 }
 
+/* Testing replacement content for Skill icon on hover */
+.skills span{
+    position: relative;
+  }
+  .skills:hover span{
+    display: none;
+  }
+  .skills:hover:after{
+    font-size: 0.2em;
+    content: 'ADD';
+  }
+
 .link-skills-text {
     color: #19BFFF;
 }
 
 .link-skills {
     text-decoration: none;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    cursor: default;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }   .link-skills :hover {
     text-decoration: none;
     /* color: #FFA23C; */
-    visibility: hidden;
+    opacity: 0;
     }
+
+/* div .caption {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #FFA23C;
+} div .caption :hover {
+    opacity: 1;
+} */
 
 /* Font Styles */
 
