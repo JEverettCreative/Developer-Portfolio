@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Kalam:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
 </head>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -25,15 +25,16 @@
             <div class="container">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#about-section">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#portfolio-section">Portfolio</a>
-                <a class="nav-item nav-link" href="#skills-section">Skills</a>
-                <a class="nav-item nav-link" href="#contact-section">Contact</a>
+                <a class="nav-item nav-link active" href="#about-target">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#portfolio-target">Portfolio</a>
+                <a class="nav-item nav-link" href="#skills-target">Skills</a>
+                <a class="nav-item nav-link" href="#contact-target">Contact</a>
                 </div>
             </div>
             </div>
         </div>
     </nav>
+    <hr id="about-target" class="targeting">
     <!-- About Me section -->
     <div class="container main-content" id="about-section">
         <div class="row row-pad">
@@ -57,6 +58,7 @@
                         <p>Diving into the fundamentals of web development, he realized something -- Here was a career <em>where his creativity and engineering aptitude could be blended perfectly</em>. He made the decision that day to become a professional developer.</p>
                     </div>
                 </div>
+                <hr id="portfolio-target" class="targeting">
             </div>
         </div>
     </div>
@@ -143,7 +145,7 @@
             </div>
            
             </div>
-        
+            <hr id="skills-target" class="targeting">
     </div>
 
     <!-- Skill Section -->
@@ -204,7 +206,9 @@
                         </div>
                     </div>
                 </div>
-        </div>     
+            </div>     
+        </div>
+        <hr id="contact-target" class="targeting">
     </div>
 
     <!-- Contact section -->
@@ -270,7 +274,7 @@
 
     <nav class="navbar bottom navbar-expand-lg navbar-dark bg-teal">
         <div class="container col-12 justify-content-center">
-            <p class="foot-text">&copy;Copyright</p>
+            <p class="foot-text">&copy;Copyright 2019</p>
         </div>
     </nav>
 </body>
