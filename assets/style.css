@@ -4,14 +4,9 @@ body {
 }
 
 h1 {
-    font-family: 'Kalam', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
-
-/* Use to see grids more easily. Comb through and remove when formatting complete*/
-/* .tempborder {
-    border: 2px solid black;
-} */
 
 .navbar .navbar-collapse {
     text-align: center;
@@ -35,6 +30,10 @@ h1 {
     margin: 8px auto;
     background-color: #FFA23C;
     border-radius: 70%;
+}
+
+.targeting {
+    visibility: hidden;
 }
 
 .bg-teal {
@@ -169,7 +168,7 @@ a.alt-highlight {
     position: relative;
 }
 
-/* Testing replacement content for Skill icon on hover */
+/* Skill icon on hover */
 .skills span{
     position: relative;
   }
