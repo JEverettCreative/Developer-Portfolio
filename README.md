@@ -13,6 +13,9 @@ Full-stack web developer portfolio, built with Bootstrap. Deployed projects in t
 ## Deployed Project
 https://jeverettcreative.github.io/Developer-Portfolio/
 
+## Screenshot
+![PortfolioScreenshot](https://user-images.githubusercontent.com/45632983/67114730-318f9480-f1a2-11e9-9fa0-2cc1bbe4ea42.png)
+
 ## How-to use this code
 * Simply pull the files and open them in your web browser of choice to view, or visit the deployed project above.
 
